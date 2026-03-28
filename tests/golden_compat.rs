@@ -84,21 +84,18 @@ struct FloatHistogramSample {
 /// Fixture metadata.
 #[derive(Debug, Deserialize)]
 struct FixtureMeta {
-    encoding: String,
     samples: Vec<Sample>,
 }
 
 /// Histogram fixture metadata.
 #[derive(Debug, Deserialize)]
 struct HistogramFixtureMeta {
-    encoding: String,
     samples: Vec<HistogramSample>,
 }
 
 /// Float histogram fixture metadata.
 #[derive(Debug, Deserialize)]
 struct FloatHistogramFixtureMeta {
-    encoding: String,
     samples: Vec<FloatHistogramSample>,
 }
 

@@ -787,11 +787,7 @@ fn test_histogram_large_chunk() {
 
     for i in 0..50 {
         let t = base_time + i * 15000;
-        let h = create_test_histogram(
-            10 + i as u64,
-            18.4 + i as f64,
-            vec![4 + i as i64, 4 + i as i64],
-        );
+        let h = create_test_histogram(10 + i as u64, 18.4 + i as f64, vec![4 + i, 4 + i]);
         chunk.append(t, &h);
     }
 
