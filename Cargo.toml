@@ -1,0 +1,22 @@
+[package]
+name = "rs-prom-encoder"
+version = "0.1.0"
+edition = "2021"
+description = "Prometheus-compatible chunk encoder for XOR and native histogram time series"
+license = "Apache-2.0"
+repository = "https://github.com/wise-o11y/prom-encoding"
+keywords = ["prometheus", "tsdb", "chunkenc", "histogram", "gorilla"]
+categories = ["encoding", "database"]
+
+[dependencies]
+rusty-chunkenc = "0.1.2"
+libm = "0.2"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[[bench]]
+name = "encode_bench"
+harness = false
