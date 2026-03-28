@@ -1,0 +1,77 @@
+{
+  "encoding": "FloatHistogram",
+  "samples": [
+    {
+      "t": 1000000,
+      "fh": {
+        "CounterResetHint": 0,
+        "Schema": 3,
+        "ZeroThreshold": 2.938735877055719e-39,
+        "ZeroCount": 2,
+        "Count": 10,
+        "Sum": 18.4,
+        "PositiveSpans": [
+          {
+            "Offset": 0,
+            "Length": 2
+          }
+        ],
+        "NegativeSpans": [],
+        "PositiveBuckets": [
+          4,
+          4
+        ],
+        "NegativeBuckets": [],
+        "CustomValues": null
+      }
+    },
+    {
+      "t": 1015000,
+      "fh": {
+        "CounterResetHint": 0,
+        "Schema": 3,
+        "ZeroThreshold": 2.938735877055719e-39,
+        "ZeroCount": 3,
+        "Count": 15,
+        "Sum": 28,
+        "PositiveSpans": [
+          {
+            "Offset": 0,
+            "Length": 2
+          }
+        ],
+        "NegativeSpans": [],
+        "PositiveBuckets": [
+          6,
+          6
+        ],
+        "NegativeBuckets": [],
+        "CustomValues": null
+      }
+    },
+    {
+      "t": 1030000,
+      "fh": {
+        "CounterResetHint": 0,
+        "Schema": 3,
+        "ZeroThreshold": 2.938735877055719e-39,
+        "ZeroCount": 5,
+        "Count": 22,
+        "Sum": 40.5,
+        "PositiveSpans": [
+          {
+            "Offset": 0,
+            "Length": 2
+          }
+        ],
+        "NegativeSpans": [],
+        "PositiveBuckets": [
+          8,
+          9
+        ],
+        "NegativeBuckets": [],
+        "CustomValues": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "encoding": "Histogram",
+  "samples": [
+    {
+      "t": 1000000,
+      "h": {
+        "CounterResetHint": 0,
+        "Schema": -53,
+        "ZeroThreshold": 0.25,
+        "ZeroCount": 1,
+        "Count": 8,
+        "Sum": 15.3,
+        "PositiveSpans": [
+          {
+            "Offset": 0,
+            "Length": 5
+          }
+        ],
+        "NegativeSpans": [],
+        "PositiveBuckets": [
+          2,
+          2,
+          1,
+          1,
+          1
+        ],
+        "NegativeBuckets": [],
+        "CustomValues": [
+          0.5,
+          1,
+          2.5,
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "t": 1015000,
+      "h": {
+        "CounterResetHint": 0,
+        "Schema": -53,
+        "ZeroThreshold": 0.25,
+        "ZeroCount": 2,
+        "Count": 12,
+        "Sum": 24.6,
+        "PositiveSpans": [
+          {
+            "Offset": 0,
+            "Length": 5
+          }
+        ],
+        "NegativeSpans": [],
+        "PositiveBuckets": [
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "NegativeBuckets": [],
+        "CustomValues": [
+          0.5,
+          1,
+          2.5,
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "t": 1030000,
+      "h": {
+        "CounterResetHint": 0,
+        "Schema": -53,
+        "ZeroThreshold": 0.25,
+        "ZeroCount": 3,
+        "Count": 18,
+        "Sum": 38.9,
+        "PositiveSpans": [
+          {
+            "Offset": 0,
+            "Length": 5
+          }
+        ],
+        "NegativeSpans": [],
+        "PositiveBuckets": [
+          4,
+          5,
+          3,
+          3,
+          2
+        ],
+        "NegativeBuckets": [],
+        "CustomValues": [
+          0.5,
+          1,
+          2.5,
+          5,
+          10
+        ]
+      }
+    }
+  ]
+}
