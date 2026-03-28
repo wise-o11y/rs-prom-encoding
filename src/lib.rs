@@ -55,14 +55,11 @@
 //! ```
 
 // Modules - low-level primitives (allow dead_code: read path is for tests/future use)
+pub mod bstream;
+pub mod encoding;
+pub mod varbit;
 #[allow(dead_code)]
-mod bstream;
-#[allow(dead_code)]
-mod encoding;
-#[allow(dead_code)]
-mod varbit;
-#[allow(dead_code)]
-mod xor;
+pub mod xor;
 
 // Modules - types
 #[allow(dead_code)]
@@ -78,6 +75,7 @@ mod float_histogram_chunk;
 mod histogram_chunk;
 
 // Public re-exports
+pub use bstream::{BStreamReader, BStreamWriter};
 pub use encoding::Encoding;
 pub use float_histogram_chunk::FloatHistogramChunk;
 pub use histogram_chunk::HistogramChunk;
